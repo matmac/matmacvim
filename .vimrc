@@ -1,11 +1,11 @@
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle.vim
-set foldenable
+"set foldenable
 set foldmethod=indent
-set nofoldenable
-set foldnestmax=10
-set foldlevel=1
+"set nofoldenable
+"set foldnestmax=10
+"set foldlevel=1
 call vundle#begin()
 
 "Bundles
@@ -31,6 +31,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'goatslacker/mango.vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'mustache/vim-mustache-handlebars'
 
 call vundle#end()
 filetype plugin indent on
