@@ -32,6 +32,8 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'goatslacker/mango.vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'mattn/emmet-vim'
+Plugin 'othree/html5.vim'
 
 call vundle#end()
 filetype plugin indent on
